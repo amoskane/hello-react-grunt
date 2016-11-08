@@ -18,4 +18,4 @@ class App extends React.Component {
   }
 }
 
-export default Hello;
+export default App;
