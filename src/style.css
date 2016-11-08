@@ -1,0 +1,12 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    min-width: 600px;
+    max-width: 600px;
+    width: auto !important;
+    width: 500px;
+    margin: auto;
+    background: aliceblue;
+}
