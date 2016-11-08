@@ -8,7 +8,7 @@ import React from 'react';
 
 class Hello extends React.Component {
   render() {
-    return <p>Hello world, from React!</p>
+    return <h2>Hello world, from React!</h2>
   }
 }
 
