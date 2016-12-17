@@ -14,7 +14,17 @@ module.exports = function (grunt) {
         src: 'src/style.css',
         dest: 'dist/style.min.css',
       }
-    }
+    },
+    watch: {
+      scripts: {
+        files: ['src/*.jsx', 'src/style.css'],
+        tasks: ["browserify", "cssmin"],
+        options: {
+          livereload: true,
+          spawn: false,
+        },
+      },
+    },
   });
   grunt.loadNpmTasks("grunt-browserify");
   grunt.loadNpmTasks("grunt-contrib-watch");
